@@ -1,5 +1,6 @@
-#include <print>
+#include "App.h"
 
 int main() {
-    std::println("Hello World!");
+    App app;
+    app.Run();
 }

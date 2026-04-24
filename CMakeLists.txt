@@ -18,6 +18,7 @@ FetchContent_MakeAvailable(ftxui)
 
 add_executable(QLearningDemo
     src/main.cpp
+    src/App.cpp
 )
 
 target_link_libraries(QLearningDemo
